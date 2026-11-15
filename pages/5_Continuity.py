@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 
+from plot_style import apply_style
+apply_style()
+
 st.title("Continuity and Discontinuity")
 
 names = [
